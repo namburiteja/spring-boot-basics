@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Give names</title>
+    <link rel="stylesheet" th:href="@{/register.css}">
+</head>
+<body>
+    <form th:action="@{/result}" th:object="${user}" method="post">
+        Boy Name:
+        <input type="text" th:field="*{boyName}" required><br>
+        Girl Name:
+        <input type="text" th:field="*{girlName}" required><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</body>
+</html>
