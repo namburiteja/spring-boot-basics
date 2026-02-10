@@ -1,4 +1,4 @@
-# Spring Boot Basics
+# Flames Calculator
 
 🚀 A simple and practical **Spring Boot** web application built with **Java**, **Thymeleaf**, and **MySQL**, and deployed on **Railway** (both backend and database hosted).
 
@@ -43,11 +43,3 @@ This repository contains a Spring Boot based web application that:
 ✔ Railway environment support via environment variables
 
 ---
-
-## 🚀 Getting Started (Local)
-
-1. **Clone the repo**
-
-   ```bash
-   git clone https://github.com/namburiteja/spring-boot-basics.git
-   cd spring-boot-basics
