@@ -1,6 +1,6 @@
 package org.example;
 public class Main {
     public static void main(String[] args) {
-        System.out.print("Allu Arjun");
+        System.out.print("Spring boot is working!!");
     }
 }
