@@ -10,10 +10,10 @@ import java.util.HashMap;
 
 @Service
 public class FlamesService {
-    private final FlamesRepository flamesRepository;
-    public FlamesService(FlamesRepository flamesRepository){
-        this.flamesRepository = flamesRepository;
-    }
+    // private final FlamesRepository flamesRepository;
+    // public FlamesService(FlamesRepository flamesRepository){
+    //     this.flamesRepository = flamesRepository;
+    // }
     public String flames(String s1,String s2){
         s1 = s1.replace(" ","");
         s2 = s2.replace(" ","");
@@ -77,12 +77,12 @@ public class FlamesService {
         }
         String finalResult =  res.get(0);
 
-        FlamesEntity entity = new FlamesEntity();
-        entity.setBoyName(s1);
-        entity.setGirlName(s2);
-        entity.setResult(finalResult);
+        // FlamesEntity entity = new FlamesEntity();
+        // entity.setBoyName(s1);
+        // entity.setGirlName(s2);
+        // entity.setResult(finalResult);
 
-        flamesRepository.save(entity);
+        // flamesRepository.save(entity);
         return finalResult;
     }
 }
